@@ -1,22 +1,23 @@
-📊 Customer Churn Analysis
+📊 **Customer Churn Analysis**
+
 This repository contains an Exploratory Data Analysis (EDA) notebook focused on identifying and understanding the patterns and factors contributing to customer churn in a telecommunications company. The analysis uses a publicly available dataset and leverages Python libraries like pandas, matplotlib, seaborn, and numpy.
 
-📁 Project Structure
+📁 **Project Structure**
 
 .
 ├── CCA.ipynb              # Jupyter Notebook containing the full analysis
 ├── Customer churn dataset.csv (not included here, link below)
 └── README.md              # Project documentation
 
-🚀 Getting Started
+🚀 **Getting Started**
 
-🛠️ Requirements
+🛠️ *Requirements*
 
 ▪︎ Python 3.10+
 
 ▪︎ Jupyter Notebook / Google Colab
 
-Libraries:
+*Libraries*:
 
 ▪︎ pandas
 
@@ -26,11 +27,11 @@ Libraries:
 
 ▪︎ seaborn
 
-Install dependencies:
+*Install dependencies*:
 
 pip install pandas numpy matplotlib seaborn
 
-📌 Dataset
+📌 **Dataset**
 
 The analysis is based on the Telco Customer Churn dataset, which includes information such as:
 
@@ -44,9 +45,9 @@ The analysis is based on the Telco Customer Churn dataset, which includes inform
 
 
 
-🔍 Key Steps in Analysis
+🔍 **Key Steps in Analysis**
 
-1. Data Loading & Cleaning:
+1. *Data Loading & Cleaning*:
 
 ▪︎ Mounted Google Drive and imported CSV.
 
@@ -54,15 +55,15 @@ The analysis is based on the Telco Customer Churn dataset, which includes inform
 
 ▪︎ Handled data types and confirmed absence of null/duplicate entries.
 
-2. Data Transformation:
+2. *Data Transformation*:
 
 ▪︎ Converted SeniorCitizen binary column (0/1) to readable format (Yes/No).
 
-3. Visual Explorations:
+3. *Visual Explorations*:
 
 ▪︎ Distribution of churned vs. non-churned customers using bar and pie charts.
 
-4. Churn distribution by:
+4. *Churn distribution by*:
 
 ▪︎ Gender
 
@@ -76,7 +77,7 @@ The analysis is based on the Telco Customer Churn dataset, which includes inform
 
 ▪︎ Multi-panel categorical variable analysis (PhoneService, Streaming, TechSupport, etc.)
 
-5. Insights:
+5. *Insights*:
 
 ▪︎ Short-tenure customers tend to churn more.
 
@@ -86,7 +87,7 @@ The analysis is based on the Telco Customer Churn dataset, which includes inform
 
 ▪︎ Engagement in digital services is a strong churn predictor.
 
-📷 Sample Visualizations
+📷 **Sample Visualizations**
 
 📌 Count of customers by churn status
 
@@ -98,11 +99,11 @@ The analysis is based on the Telco Customer Churn dataset, which includes inform
 
 📌 Multiple countplots for categorical variables related to services
 
-📈 Conclusion
+📈 **Conclusion**
 
 This analysis provides valuable insights into what drives customer churn. It can help in designing retention strategies by focusing on tenure, contract types, and digital service offerings.
 
-👨‍💻 Author
+👨‍💻 **Author**
 
 Priyanshu Mishra
 BTech CSIT Student | Data Enthusiast
